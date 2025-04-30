@@ -12,12 +12,12 @@ diff_drive_controller:
     left_wheel_names: ["left_wheel_joint"]
     right_wheel_names: ["right_wheel_joint"]
 
-    wheel_separation: 0.266
+    wheel_separation: 0.274
     # wheels_per_side: 1  # actually 2, but both are controlled by 1 signal
-    wheel_radius: 0.034
+    wheel_radius: 0.033
 
-    wheel_separation_multiplier: 1.0
-    left_wheel_radius_multiplier: 1.0
+    wheel_separation_multiplier: 1.5
+    left_wheel_radius_multiplier: 0.7
     right_wheel_radius_multiplier: 1.0
 
     publish_rate: 30.0
@@ -48,9 +48,113 @@ diff_drive_controller:
     angular.z.has_velocity_limits: true
     angular.z.has_acceleration_limits: true
     angular.z.has_jerk_limits: false
-    angular.z.max_velocity: 1.0
-    angular.z.min_velocity: -1.0
+    angular.z.max_velocity: 2.0
+    angular.z.min_velocity: -2.0
     angular.z.max_acceleration: 1.0
     angular.z.min_acceleration: -1.0
     angular.z.max_jerk: 0.0
     angular.z.min_jerk: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
